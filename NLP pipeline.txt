@@ -1,0 +1,9 @@
+load the data
+remove null values
+Keep only alphabets
+remove stopwords
+remove punctuation
+nomalize cases
+correct typo’s
+stemm
+lemmitize
