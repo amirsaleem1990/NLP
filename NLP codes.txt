@@ -76,3 +76,30 @@ for i in df['columns']:
 sudo apt-get install aspell
 cat file.txt | aspell list
 # return all english typo
+
+# save these results in file
+cat file.txt | aspell list > 'terminal_output.txt'
+
+# then (in terminal)
+ipython
+with open('terminal.txt', 'r') as file:
+     file = file.readlines()
+a = []
+for i in file:                         
+     a.append(i.replace('\n' ,''))
+
+# check
+len(a) == len(file)
+
+# count of all mistakes (with replacement)
+len(a)
+
+# count of unique mistakes (with replacement) 
+len(set(a))
+
+# unique sorted mistakes
+sa = sorted(list(set(a)))
+
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
