@@ -1,5 +1,10 @@
-load the data
+1- load the data
+
+***CLEAN THE DATA***
 remove null values
+remove duplicate values
+<It is necessary to remove duplicates in order to get unbaised results https://www.kaggle.com/shashanksai/text-preprocessing-using-python#>
+
 Keep only alphabets
 remove stopwords
 remove punctuation
@@ -7,3 +12,5 @@ nomalize cases
 correct typo’s
 stemm
 lemmitize
+
+*** ***
