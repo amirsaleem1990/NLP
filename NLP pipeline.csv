@@ -1,0 +1,10 @@
+1, load the data,
+2, vremove null values,
+3, nomalize cases,
+4, remove duplicate values,<It is necessary to remove duplicates in order to get unbaised results https://www.kaggle.com/shashanksai/textpreprocessingusingpython#>
+5, Keep only alphabets,
+6, remove stopwords,
+7, remove punctuation,
+8, correct typo’s,
+9, stemm,
+10, lemmitize,
