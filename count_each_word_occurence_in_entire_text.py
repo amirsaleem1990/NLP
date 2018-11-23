@@ -1,3 +1,5 @@
+# if text in one string:
+
 from collections import Counter
 text = '''The Sri Lanka T20 squad were surrounded by 'extraordinary' security arrangements upon 
 their arrival in Lahore on Sunday morning, for the third T20I at the Gaddafi Stadium. This is the first 
@@ -14,3 +16,18 @@ token_count = Counter(tokens)
 # Print the 10 most common words
 print(token_count.most_common(10))
 # [('team', 4), ('sri', 3), ('lanka', 3), ('lahore', 3), ('security', 2), ('arrangement', 2), ('visit', 2), ('bus', 2), ('route', 2), ('police', 2)]
+
+
+
+
+
+# if text in form of nested list, each list is a text:
+my_documents = ['The movie was about a spaceship and aliens.',
+                    'I really liked the movie!',
+                    'Awesome action scenes, but boring characters.',
+                    'The movie was awful! I hate alien films.',
+                    'Space is cool! I liked the movie.',
+                    'More space films, please!']
+tokenized_docs = [word_tokenize(doc.lower()) for doc in my_documents]
+d = Dictionary(tokenized_docs)
+d.token2id
