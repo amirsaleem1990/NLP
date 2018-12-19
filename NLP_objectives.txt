@@ -1,0 +1,13 @@
+Machine translation
+Automatic summarization
+Sentiment analysis
+lexical analysis
+syntactic analysis
+handling ambiguities
+Text classification
+Conversational agents (chatbot)
+information extraction (https://en.wikipedia.org/wiki/Information_extraction)
+NER (names entity recongnation)
+PoS
+Topic segmentation
+
